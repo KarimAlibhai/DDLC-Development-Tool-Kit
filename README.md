@@ -5,7 +5,7 @@ The DDLC-Development-Tool-Kit is something I have put together to help make DDLC
 # Installation instructions:
 
 The tool kit will not work out of the box just yet. You need to follow these setup steps.
-1. Download the tool kit.
+1. Download the 'Tool Kit' folder. (That's the actual toolkit the rest of this repo is tutorials, credits etc.)
 2. You will need to have a zipped download of DDLC. Official files can be downloaded at http://ddlc.moe
 3. Now you'll want to open up the renpy application stored in 'DDMMaker-7.3.5-sdk'. (this is a modified version of renpy).
 4. Then open settings to set two things up. 
