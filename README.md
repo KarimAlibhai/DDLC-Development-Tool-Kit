@@ -37,7 +37,7 @@ The tool kit will not work out of the box just yet. You need to follow these set
 
 # Template Notes:
 
-Unzip it (obviously).
+You will need to add images.rpa and audio.rpa back into the game folder (from base ddlc) for the template to work. They were too large for github :(
 Template works with the DDMM v7, just put it in the projects folder
 Also it works with base DDLC, copy and paste the game, lib, renpy folders into base ddlc folder and click replace.
 Launch DDLC and you'll see it works.
