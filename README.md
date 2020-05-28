@@ -35,6 +35,14 @@ The tool kit will not work out of the box just yet. You need to follow these set
 
 13. I believe that's it for now, but this is very much prone to change based on feedback! (and motivation)
 
+# Template Notes:
+
+You will need to add images.rpa and audio.rpa back into the game folder (from base ddlc) for the template to work. They were too large for github :(
+Template works with the DDMM v7, just put it in the projects folder
+Also it works with base DDLC, copy and paste the game, lib, renpy folders into base ddlc folder and click replace.
+Launch DDLC and you'll see it works.
+The main thing to note is if you have issues when building your project you can copy it's included renpy and lib folders into your project, that will fix any issues with not being renpy v7 as those folders are v7 and when you re compile all your files will automatically compile into v7.
+
 # Credits
 
 Obviously, this is a collection tool kit of various tools to make life easier. I did not make these tools and none of this would be possible without them so here are the credits for all these wonderful people. (I really tried to credit everyone, if I have been an idiot and forgotten someone let me know).
@@ -44,4 +52,5 @@ DDLCModTemplate: https://github.com/GanstaKingofSA/DDLCModTemplate2.0 by Gangsta
 MPT: https://www.reddit.com/r/DDLCMods/comments/emennq/mood_posing_tool_mpt_v10_release_for_ddlc_modding/?utm_source=share&utm_medium=web2x by Chronos, Yagamirai and Terra.
 unrypc: https://github.com/CensoredUsername/unrpyc by CensoredUsername
 rpatool: https://github.com/Shizmob/rpatool by Shizmob
+renpy-7.3.5-sdk: https://www.renpy.org/latest.html
 This guide and the custom example template: Me! Karim!
