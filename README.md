@@ -2,7 +2,7 @@
 
 The DDLC-Development-Tool-Kit is something I have put together to help make DDLC Modding a lot easier. Currently there are a lot of great tools out there such as the Mood Posing Tool. A custom renpy launcher for DDLC and more. (Credits and links at the end). So I decided to put together a tool kit which has them all linked and wrapped up nicely together. This has helped save me lots of time and I hope it can help save other modders out there some time too! Feel free to contact me if you have any issues!
 
-#Installation instructions:
+# Installation instructions:
 
 The tool kit will not work out of the box just yet. You need to follow these setup steps.
 1. Download the tool kit.
