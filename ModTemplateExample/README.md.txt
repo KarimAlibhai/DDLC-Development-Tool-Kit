@@ -1,0 +1,1 @@
+Remember to add audio.rpy and images.rpy back into the game folder
