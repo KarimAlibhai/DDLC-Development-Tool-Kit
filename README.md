@@ -13,10 +13,22 @@ The tool kit will not work out of the box just yet. You need to follow these set
 5. The first is set the location of the zipped version of DDLC, wherever you have it stored, I store mine within the toolkit folder for convinience but it really doesn't matter where you store it. 
 6. The second is setting the projects directory. The important thing about the projects directory is that this is where all of your projects will be stored. E.g. I have a project called 'DDPI' in the projects directory, the next files below 'DDPI' are the files for that mod.
 7. The final note for this tool is that in order to specify the renpy version (here I'm using version 7 for compatibility with the MPT) you need to specify it. Simply create a file called renpy-version and include the number so in this case 7 in the text file.
+8. The neat think about this is that it is actually able to be integrated with the MPT, amazing right! So now there's two sections, one for a new project (way easier) and one for existing ones. Also note when building you are going to have to ensure you execute the mod with base ddlc in renpy 7 so the lib and renpy folders are renpy 7 and the files compiled as renpy 7.
 
-8. Now onto the Mood Posing Tool, if you haven't heard of it, it's an amazing tool which makes adding in different sprites and custom poses much easier. In the credits a link to their post is available for more information. To use the MPT simply place it in the 'mod_assets' folder of your project and you're good to go!
-9. (Ignore this point if you know how the MPT tool works) An important note for the MPT is that you must be using renpy v7, how you upgrade to v7 and other stuff I will not explain here. You can see detailed instructions and examples under both the MPT release post, and documentation as well as from the DDLCModTemplate 2.0, all of which are linked in the credits.
+# New project
 
+1. Simply open DDMMaker. Then you do not need to install the MPT (I've done it for you). Click on new project, follow the on screen instructions and that's it, done!
+
+# Existing project.
+
+1. A little more complex, for this we are going to have to manually patch our project.
+2. Now onto the Mood Posing Tool, if you haven't heard of it, it's an amazing tool which makes adding in different sprites and custom poses much easier. In the credits a link to their post is available for more information.
+3. Remember how there's literally a folder called MPT (not a zip) in the tool kit, yeah copy that into mod_assets, that's it.
+4. (Ignore this point if you know how the MPT tool works) An important note for the MPT is that you must be using renpy v7, how you upgrade to v7 and other stuff I will not explain here. You can see detailed instructions and examples under both the MPT release post, and documentation as well as from the DDLCModTemplate 2.0, all of which are linked in the credits.
+
+# Continuing on...
+
+9. Some notes on the other stuff included.
 10. The ModTemplateExample folder is an example of a sample project which shows how exactly you would lay this out in a project, provided you are using the (almost default) template for ddlc mods. (See credits for link).
 11. The rpa tool is commonly used to help deal with extracting rpyc files from rpa files. This tool is also used for the reverse process. The main reason is to help save space. An example is the 'images.rpa' file in base ddlc will contain the images used in the game.
 12. Finally the unrpyc tool is used to decompile rpyc files. rpyc files are binary files which are compiled by renpy when running and then left over. You only need these for your scripts to work. However, you really only want to get rid of your rpy files once you're done with your mod to save space. So if you have the rpyc file for say script.rpyc using the unrpyc tool will allow you to get script.rpy out so you can actually read it. (in english not unreadable binary data, no not 1's and 0's I mean literally unreadable by humans).
