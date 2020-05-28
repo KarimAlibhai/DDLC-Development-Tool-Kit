@@ -32,3 +32,4 @@ DDLCModTemplate: https://github.com/GanstaKingofSA/DDLCModTemplate2.0 by Gangsta
 MPT: https://www.reddit.com/r/DDLCMods/comments/emennq/mood_posing_tool_mpt_v10_release_for_ddlc_modding/?utm_source=share&utm_medium=web2x by Chronos, Yagamirai and Terra.
 unrypc: https://github.com/CensoredUsername/unrpyc by CensoredUsername
 rpatool: https://github.com/Shizmob/rpatool by Shizmob
+This guide and the custom example template: Me! Karim!
