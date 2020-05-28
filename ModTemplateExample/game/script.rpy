@@ -1,35 +1,22 @@
-# Entry point
 label start:
-
-    # ID of this playtrhoguh
-    $ anticheat = persistent.anticheat
-
-    # keep track of chapter
-    $ chapter = 0
-
-    # if they quit during a pause, we have to set _dismiss_pause to false again
-    $ _dismiss_pause = config.developer
-
-    # girl names
-    $ s_name = "Sayori"
-    $ m_name = "Monika"
-    $ n_name = "Natsuki"
-    $ y_name = "Yuri"
-
-    $ quick_menu = True
-    $ style.say_dialogue = style.normal
-    $ in_sayori_kill = None
-    $ allow_skipping = True
-    $ config.allow_skipping = True
-
-
-    if persistent.example_seen:
-        call tutorial_selection
-    else:
-        call example_chapter from _call_example_chapter
-
-    return
-
+    python:
+        player= "MC"
+        s_name = "Sayori"
+        m_name = "Monika"
+        n_name = "Natsuki"
+        y_name = "Yuri"
+        # Controls whether we have a Menu in the Textbox
+        quick_menu = True
+        # Controls whether we want normal or glitched dialogue
+        style.say_dialogue = style.normal
+        # Controls whether Sayori is Dead. Leave this alone
+        in_sayori_kill = None
+        # Controls whether we allow skipping.
+        allow_skipping = True
+        config.allow_skipping = True
+    call test_menu from _call_test_menu
+    
+    
 label endgame(pause_length=4.0):
     $ quick_menu = False
     stop music fadeout 2.0
@@ -39,4 +26,3 @@ label endgame(pause_length=4.0):
     pause pause_length
     $ quick_menu = True
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
