@@ -50,11 +50,12 @@ updated: 29/05/2020
 
 # Template Notes:
 
-You will need to add images.rpa and audio.rpa back into the game folder (from base ddlc) for the template to work. They were too large for github :(
+You will need to merge this with the original DDLC game files for this to work.
 Template works with the DDMM v7, just put it in the projects folder
 Also it works with base DDLC, copy and paste the game, lib, renpy folders into base ddlc folder and click replace.
 Launch DDLC and you'll see it works.
 The main thing to note is if you have issues when building your project you can copy it's included renpy and lib folders into your project, that will fix any issues with not being renpy v7 as those folders are v7 and when you re compile all your files will automatically compile into v7.
+update 29/05/2020: Template will be added back soon after some changes are made to make it easier, screenshots and more will be added to this guide if requested and when I have motivation.
 
 # Credits
 
